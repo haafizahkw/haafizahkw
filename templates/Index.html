@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<head> 
+    <link rel="stylesheet" href="/static/style.css">
+    <title>My index page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+   
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#HOME">HOME</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#ABOUT">ABOUT<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#PROJECT">PROJECT<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/static/resume.pdf">RESUME<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#SKILLS">SKILL<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">LINK TREE </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Instagram</a>
+            <a class="dropdown-item" href="#">LinkedIn</a>
+            <a class="dropdown-item" href="#">GitHub</a>
+          </div>
+        </li>
+      </ul>
+
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="background" id="HOME">
+    <div class="child">
+      <div class="texts">   
+        <p class="intro">This is</p>
+        <h1 class="name">HAAFIZAH KHATHIJA</h1>
+        <p>Software Developer</p>   
+      </div>
+      <div class="image"><img src="/static/name pic.png" alt=""></div>
+    </div>
+  </div>  
+
+  <div class="about" id="ABOUT">
+    <h2>ABOUT ME</h2>
+      <p class="about-info">An enthustiatic learner who is cerified in Java, C and SQL <br>Still more to accomplish and currently a student in Yenepoya</p>
+  </div>
+
+  <div class="project" id="PROJECT">
+    <h2>PROJECTS</h2>
+    <div class="cards">
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Project 1</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Project 2</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Project 3</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Project 4</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills" id="SKILLS">
+    <h2>SKILLS</h2>
+    <ul>
+      <li>C++</li>
+      <li>Java</li>
+      <li>SQL</li>
+    </ul>
+  </div>
+
+  <div class="Resume">
+      
+  </div>
+
+  <div class="contact-form">
+    <h1>Contact Form</h1>
+    <form action="https://formspree.io/f/mzbnyaok" method="POST">
+      <div class="mb-5 row">
+        <div class="col">
+          <label>First Name</label>
+          <input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name">
+        </div>
+        <div class="col">
+          <label>Last Name</label>
+          <input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name">
+        </div>
+      </div>
+      <div class="mb-5 row">
+        <div class="col">
+          <label for="email_addr">Email address</label>
+          <input type="email" required maxlength="50" class="form-control" id="email_addr" name="email" placeholder="name@example.com">
+        </div>
+        <div class="col">
+          <label for="phone_input">Phone</label>
+          <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone" placeholder="Phone">
+        </div>
+      </div>
+      <div class="mb-5">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+      </div>
+        <button type="submit" class="btn btn-primary px-4 btn-lg">Post</button>
+    </form>
+  </div>
+</body>
+</html>
