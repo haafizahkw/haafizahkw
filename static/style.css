@@ -48,8 +48,9 @@ p{
 .about{
     font-family: "Montserrat", sans-serif !important;
     padding: 5rem;
- 
-}
+    text-align: center;
+    align-items: center;
+} 
 
 img{
     border: 1px solid #ddd;
@@ -63,11 +64,13 @@ img{
 .project{
     font-family: "Montserrat", sans-serif !important;
     padding: 5rem;
+    text-align: center;
 }
 
 .cards{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .skills{
@@ -77,18 +80,16 @@ img{
 
 .skills ul{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly !important;
+    text-align: center;
 }
 
 .skills ul li{
     list-style-type: none;
-    border: 1px solid #070F2B;
+    border: 5px solid #070F2B;
     font-size: larger;
-    width: 70px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: #070F2B;
-    color: antiquewhite;
+    width: 100px;
+    text-align: center !important;
 }
 
 .contact-form{
